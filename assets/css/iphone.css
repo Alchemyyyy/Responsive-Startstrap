@@ -39,7 +39,7 @@ html {
   .navbar .nav-toggle:checked + .navbar-nav {
     display: block;
   }
-  .navbar-toggle {
+  .header .navbar .navbar-toggle {
     padding: 8px 16px;
     border-radius: 5px;
     font-size: 17px;
@@ -48,6 +48,7 @@ html {
     position: absolute;
     right: 20px;
     top: 20px;
+    display: block;
   }
 
   /* PORTFOLIO */

@@ -20,9 +20,7 @@ html {
   max-width: 100%;
   margin: auto 110px;
 }
-.header .navbar .navbar-menu {
-  display: none;
-}
+
 .brand-name .brand-name-link {
   font-size: 20px;
   font-weight: bold;
@@ -37,6 +35,9 @@ html {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+}
+.header .navbar .navbar-toggle {
+  display: none;
 }
 .navbar .navbar-nav {
   display: flex;
@@ -146,7 +147,6 @@ html {
 
 
 /* PORFOLIO */
-
 .portfolio {
   background-color: #fff;
   margin-bottom: 100px;
@@ -275,7 +275,6 @@ html {
 
 
 /* CONTACT */
-
 .contact .container {
   margin: 0 110px;
   background-color: #fff;
@@ -347,7 +346,6 @@ form .submit-button-container .submit-button {
 }
 
 /* FOOTER */
-
 .footer {
   background-color: #2C3D4F;
 }
